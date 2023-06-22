@@ -107,7 +107,6 @@ interface HeaderProps {
               >
               </Button>
             </div>
-          {/* : (
             <>
               <div>
                 <Button 
@@ -122,14 +121,12 @@ interface HeaderProps {
               </div>
               <div>
                 <Button 
-                  onClick={authModal.onOpen} 
                   className="bg-white px-6 py-2"
                 >
                   Log in
                 </Button>
               </div>
             </>
-          )} */}
         </div>
       </div>
       {children}
